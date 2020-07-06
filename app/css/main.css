@@ -1,0 +1,88 @@
+body{
+    background-image: url(../images/mock-up.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 5227;
+    font-family: sans-serif;
+}
+.container{
+    width: 1109px;
+    margin: auto;
+}
+header{
+    background-color: #d2691e54;
+    padding: 12px;
+}
+header .header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.header-wrapper .logo h1{
+    color: #506872cc;
+    font-size: 29px;
+    margin: 0px 0;
+}
+.navi-wrapper .navi{
+    llist-style: none;
+    display: flex;
+    margin: 8px 0;
+}
+.header-wrapper .navi li a{
+    padding: 0px 20px;
+    margin: -10px 0px;
+}
+#hero{
+    height: 588px;
+    background-color: #4b00825e;
+}
+#hero .container-1{
+    width: 1109px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/hero-img.png);
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 249px 0px;
+    margin: -107px 110px;
+    
+}
+#hero .container-1 .hero-wrapper .paragraph{
+
+}
+.hero-wrapper .paragraph p{
+    font-size: 30px;
+    font-family: initial;
+    margin: 91px 77px;
+    color: #584069;
+}
+#hero .container-1 h1{
+    font-size: 56px;
+    padding: 0px 77px;
+    margin: -96px 0px;
+    font-family: initial;
+    color: #3e295cfa;
+    margin-bottom: -79px;
+}
+#about{
+
+}
+#features{
+
+}
+#services{
+
+}
+#portfolio{
+
+}
+#c2a{
+
+}
+#team{
+
+}
+#contact{
+
+}
