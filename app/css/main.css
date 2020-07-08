@@ -1,5 +1,5 @@
 body{
-    
+    background-image: url(../images/mock-up.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     height: 5227;
@@ -8,10 +8,11 @@ body{
 .container{
     width: 1109px;
     margin: auto;
+    padding-top: 11px
 }
 header{
-    background-color: #d2691e54;
-    padding: 12px;
+    background-color: #fff;
+    height: 72px;
 }
 header .header-wrapper{
     display: flex;
@@ -23,66 +24,108 @@ header .header-wrapper{
     margin: 0px 0;
 }
 .navi-wrapper .navi{
-    llist-style: none;
     display: flex;
     margin: 8px 0;
+    list-style: none;
 }
 .header-wrapper .navi li a{
     padding: 0px 20px;
     margin: -10px 0px;
 }
 #hero{
-    height: 588px;
-    background-color: #4b00825e;
+    height: 568px;
+    background-image: url(../images/hero-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
 }
-#hero .container-1{
-    width: 1109px;
-    margin: auto;
+.hero-wrapper{
     display: flex;
     justify-content: space-between;
-    background-image: url(../images/hero-img.png);
-    background-size: 380px;
-    background-repeat: no-repeat;
-    background-position: right;
-    padding: 249px 0px;
-    margin: -107px 110px;
+    padding: 1px 0px;
+}
+.hero-text{
+    flex-basis: auto;
+    font-family: serif;
+    padding: 80px 0px;
+}
+.hero-text h3{
+    font-size: 57px;
+    margin: 14px 0px;
+    font-family: serif;
+    line-height: 1;
+    color: #344046;
+}
+.hero-text p{
+    font-size: 29px;
+    margin: 8px 0px;
+    line-height: 1;
+}
+.hero-text .cta{
+
+}
+.hero-text .cta a{
+    margin-top: 23px;
+    color: white;
+    padding: 12px 25px;
+    display: inline-block;
+    background-color: #52a6e7;
+    border-radius: 8px;
+    text-decoration: none;
+}
+}
+.hero-image{
+    flex-basis: auto;
+}
+.hero-image img{
+    display: block;
+    max-width: 382px;
+    margin: 37px 73px;
+    display: block;
+    max-width: 382px;
+    margin: 37px 73px;
     
 }
-#hero .container-1 .hero-wrapper .paragraph{
-
-}
-.hero-wrapper .paragraph p{
-    font-size: 30px;
-    font-family: initial;
-    margin: 91px 77px;
-    color: #584069;
-}
-#hero .container-1 h1{
-    font-size: 56px;
-    padding: 0px 77px;
-    margin: -96px 0px;
-    font-family: initial;
-    color: #3e295cfa;
-    margin-bottom: -79px;
-}
 #about{
-
+    height: 511px;
 }
-#features{
+#about .container{
+    */background-color: #f7f8fa;*/
+    padding: 207px 15px;
+    
+}
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.about-wrapper .about-image img{
+    flex-basis: auto;
+    background-image: url(../images/about.jpg);
+    
+}
+.about-wrapper .about-text{
+    flex-basis: auto;
+} 
 
+#features{
+    height: 530px;
 }
 #services{
-
+    height: 530px;
 }
 #portfolio{
-
+    height: 1132px;
 }
 #c2a{
-
+    height: 265px;
 }
 #team{
-
+    height: 689px;
 }
 #contact{
-
+    height: 806px;
+}
+footer{
+    height: 110px;
 }
