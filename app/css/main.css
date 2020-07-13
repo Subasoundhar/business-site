@@ -2,7 +2,7 @@ body{
     background-image: url(../images/mock-up.jpg);
     background-position: center top;
     background-repeat: no-repeat;
-    height: 5227;
+    height: 5227px;
     font-family: sans-serif;
 }
 .container{
@@ -11,9 +11,9 @@ body{
     padding-top: 11px;
 }
 .primary-button a{
-    margin-top: 11px;
+    margin-top: 27px;
     color: white;
-    padding: 12px 24px;
+    padding: 14px 24px;
     display: inline-block;
     background-color: #009ceb;
     border-radius: 6px;
@@ -28,13 +28,12 @@ header .header-wrapper{
 }
 .header-wrapper .logo h1{
     color: #506872cc;
-    font-size: 33px;
-    margin: -6px 0px;
-    font-family: 'PT Sans', sans-serif;
+    font-size: 29.5px;
+    margin: 12px 0px;
 }
 .navi-wrapper .navi{
     display: flex;
-    margin: 8px 108px;
+    margin: 16px 106px;
     list-style: none;
     color: #8999a6;
 }
@@ -61,19 +60,19 @@ header .header-wrapper{
 }
 .hero-text h3{
     font-size: 48px;
-    margin: 10px -3px;
+    margin: 21px 1px;
     line-height: 1.2;
     color: #374146;
     font-family: 'Raleway', sans-serif;
     width: 543px;
 }
 .hero-text p{
-    font-size: 24px;
-    margin: 20px -1px;
+    font-size: 26px;
     line-height: 1.2;
     font-family: 'Raleway', sans-serif;
-    color: #89979a;
-    font-weight: 900;
+    color: #76858b;
+    margin-top: -8px;
+    font-weight: 100;
 }
 .hero-image{
     flex-basis: auto;
@@ -81,10 +80,7 @@ header .header-wrapper{
 .hero-image img{
     display: block;
     max-width: 382px;
-    margin: 37px 73px;
-    display: block;
-    max-width: 382px;
-    margin: 37px 73px;   
+    margin: 44px 75px;   
 }
 #about{
     height: 511px;
@@ -101,49 +97,50 @@ header .header-wrapper{
     padding: 52px 35px;
 }
 .about-wrapper .about-image img{
+    margin: 16px 0px;
     flex-basis: auto;
     background-image: url(../images/about.jpg);
-    height: 313px;
+    height: 311px;
 }
 .about-wrapper .about-text{
     flex-basis: auto;
-    
-    
 } 
 .about-text h3{
     color: #354046ad;
     font-size: 34px;
-    margin: 6px 22px
+    margin-left: 25px;
+    margin-top: 18px;
 }
 .about-text p{
     margin-left: 26px;
     font-size: 17px;
     line-height: 1.5;
-    margin-top: 8px;
-    color: #0a0a0a;
-    
+    margin-top: 11px;
+    color: #748599;
 }
 .about-text ul{
     padding-bottom: 1px;
 }
 .about-text ul li{
     list-style: none;
-    line-height: 1.5;
+    line-height: 1.4;
     list-style-position: outside;
-    margin: 6px -9px;
-    color: #767686;
+    margin: 11px -5px;
+    color: #748599;
     font-size: 18px;
-    font-family: 'Archivo', sans-serif;
+    font-family: sans-serif;
 }
 .about-text ul li i{
     color: #2ba94d;
-    margin-left: -2px;
+    margin-left: 35px;
+}
+.about-text-1 p{
+    margin-top: 14px;
+    color: #748599;
+    font-family: sans-serif;
 }
 #features{
     height: 530px;
-}
-#features .container{
-
 }
 #features .features-wrapper{
     display: flex;
@@ -158,50 +155,58 @@ header .header-wrapper{
     border-left: solid 4px #fafcfb;
 }
 .features-lists .features-list-1{
-    padding: 17px 20px;
-    border-left: 4px solid #009ce9;
+    padding: 25px 20px;
+    border-left: 3px solid #73b6f1;
     background-color: #fbfbfb;
 }
 .features-lists .features-list-1 h3{
     color: #73b6f1;
     margin: 3px 1px;
+    font-size: 18px;
 }
 .features-lists .features-list-1 p{
-    margin: 7px 0px;
+    margin: 11px 0px;
     color: #959299;
+    font-size: 17px;
 }
 .features-lists .features-list-2{
     padding: 0px 22px;
 }
 .features-lists .features-list-2 h3{
-    padding: 6px 0px;
+    padding: 15px 0px;
     color: #8490a2;
+    font-size: 18px;
 }
 .features-lists .features-list-2 p{
-    margin: -16px 0px;
     color: #808995;
+    font-size: 14px;
 }
 .features-lists .features-list-3{
-    padding: 24px 22px;
+    padding: 0px 22px;
 }
 .features-lists .features-list-3 h3{
-    padding: 21px 0px;
+    padding: 43px 0px;
     color: #8490a2;
+    font-size: 17.5px;
+    margin-top: 9px;
 }
 .features-lists .features-list-3 p{
-    margin: -32px 0px;
+    margin: -29px 0px;
     color: #808995;
+    font-size: 14px;
 }
 .features-lists .features-list-4{
     padding: 0px 22px;
 }
 .features-lists .features-list-4 h3{
-    padding-top: 38px;
+    padding-top: 80px;
     color: #8490a2;
+    font-size: 18px;
 }
 .features-lists .features-list-4 p{
-    margin-top: -10px;
+    margin-top: 16px;
     color: #808995;
+    font-size: 14px;
 }
 .features-wrapper .features-image{
     flex-basis: auto;
@@ -214,21 +219,24 @@ header .header-wrapper{
     background-color: #eeeeee;
 }
 .section-header{
-    padding-top: 36px;
+    padding-top: 67px;
 }
 .section-header h1{
     text-align: center;
     color: #708892;
+    font-size: 33px;
 }
 .section-header p{
     text-align: center;
     color: #636570;
     line-height: 1.5;
+    margin-top: 20px;
+    font-size: 18px;
 } 
 .card-type-wrapper{
     display: flex;
     justify-content: space-between;
-    padding-top: 14px;
+    padding-top: 26px;
     height: 273px;
     margin: 0px -10px;
 }
@@ -238,13 +246,13 @@ header .header-wrapper{
 .type-4{
     background-color: white;
     flex-basis: 23%;
-    margin: 1px 12px;
+    margin: 4px 12px;
 }
 .type-1 .icon-wrapper{
     font-size: 47px;
     color: #ff699a;
     text-align: center;
-    padding-top: 27px;
+    padding-top: 32px;
 }
 .type-2 .icon-wrapper{
     font-size: 40px;
@@ -271,6 +279,7 @@ header .header-wrapper{
     text-align: center;
     color: #431e2f;
     margin-top: 14px;
+    font-size: 18px;
 }
 .type-1 p,
 .type-2 p,
@@ -279,7 +288,8 @@ header .header-wrapper{
     text-align: center;
     line-height: 1.8;
     color: #8f7064;
-    margin-top: -5px;
+    margin-top: 21px;
+
 }
 #portfolio{
     height: 1132px;
@@ -291,14 +301,10 @@ header .header-wrapper{
 .portfoliio-wrapper{
     flex-basis: auto;
 }
-.portfoliio-wrapper a{
-
-}
 .portfoliio-wrapper img{
     max-width: 340px;
     padding: 13px;
-    margin-top: 6px;
-    margin-left: 0px;
+    margin-top: 15px;
 }
 #c2a{
     background-image: url(../images/cta-bg.jpg);
@@ -316,24 +322,26 @@ header .header-wrapper{
 }
 .c2a-wrapper .c2a-text{
     flex-basis: 75%;
-    margin-top: -27px;
 }
 .c2a-wrapper .c2a-text h2{
     color: #434147;
+    font-size: 27.5px;
+    margin-top: 25px;
 }
 .c2a-wrapper .c2a-text p{
     color: #7f7f7d;
     line-height: 1.5;
-    margin-top: -10px;
+    margin-top: 12px;
+    font-size: 17px;
 }
 .c2a-wrapper .c2a-link{
     flex-basis: 15%;
-    margin-top: -28px;
+    margin-top: -13px;
 }
 .c2a-link .primary-button a{
-    padding: 12px 36px;
+    padding: 13px 36px;
     border-radius: 0px;
-    background-color: #9ed9f7;
+    background-color: #009ce9;
     margin-left: -12px;
 }
 #team{
@@ -354,6 +362,7 @@ header .header-wrapper{
     max-width: 350px;
     padding: 16px 11px;
     flex-basis: 36%;
+    margin-top: 13px;
 }
 .team-text{
     display: flex;
@@ -364,10 +373,12 @@ header .header-wrapper{
 .text-3{
     flex-basis: 31%;
     background-color: white;
-    margin: 33px;
     position: relative;
-    top: -114px;
+    top: -81px;
     text-align: center;
+    padding: 9px;
+    margin-left: 21px;
+    margin-right: 58px;
 }
 .text-3{
     margin-right: 25px;
@@ -384,22 +395,40 @@ header .header-wrapper{
     content: "";
     top: 9px;
 }
+.text-1 h2,
+.text-2 h2,
+.text-3 h2{
+    margin: 24px 0px;
+    color: #79899a;
+    font-size: 17px;
+}
+.text-1 p,
+.text-2 p,
+.text-3 p{
+    font-size: 12px;
+    font-family: cursive;
+    color: #8e989b;
+}
 #contact{
     height: 806px;
     background-color: #eeeeee;
 }
 #contact h1{
     text-align: center;
-    padding: 28px;
+    font-size: 34px;
+    color: #7d8e96;
+    padding-top: 57px;
 }
 .contact-wrapper{
     display: flex;
     justify-content: space-between;
+    padding-top: 56px;
 }
 .contact-info{
     flex-basis: 40%;
     background-color: white;
     height: 597px;
+    padding-top: 15px;
 }
 .contact-information{
     display: flex;
@@ -407,58 +436,66 @@ header .header-wrapper{
 }
 .contact-logo ul{
     list-style: none;
+    margin-top: -20px;
+    padding: 0px 41px;
 }
 .contact-logo ul li{
-    color: #3db3b3;
-    border-radius: 50%;
-    background: #f6f7bd;
+    border-radius: 74%;
     margin: 32px -5px;
+    background-color: #f3f4f6;
 }
 .contact-logo ul li i{
     margin: 9px;
     display: inline-block;
     line-height: 29px;
     font-size: 18px;
+    color: #029de9;
 } 
 .contact-status{
     flex-basis: 79%;
 }
 .contact-text-1 h2{
     font-size: 19px;
-    padding-top: 17px;
-    color: #7c814b;
+    padding-top: 16px;
+    color: #526978;
+    margin-left: -16px;
 }
 .contact-text-2 h2{
-    padding-top: 16px;
-    font-size: 19px;
-    color: #7c814b;
+    padding-top: 35px;
+    font-size: 20px;
+    color: #526978;
+    margin-left: -18px;
 }
 .contact-text-3 h2{
-    font-size: 20px;
-    padding-top: 19px;
-    color: #7c814b;
+    font-size: 21px;
+    padding-top: 34px;
+    color: #526978;
+    margin-left: -18px;
 }
 .contact-text-1 p{
-    margin-top: -8px;
-    color: #b1b78d;
+    margin-top: 11px;
+    color: #a6b5cd;
+    margin-left: -16px;
 }
 .contact-text-2 a,
 .contact-text-3 a{
     text-decoration: none;
-    color: #b1b78d;
+    color: #a6b5cd;
 }
 .contact-text-2 p{
-    margin-top: -11px;
+    margin-top: 10px;
+    margin-left: -17px;
 }
 .contact-text-3 p{
-    margin-top: -10px;
+    margin-top: 10px;
     text-decoration: none;
-    color: #b1b78d;
+    margin-left: -13px;
 }
 .contact-map iframe{
-    height: 291px;
-    width: 390px;
-    margin: 14px -62px;
+    height: 290px;
+    width: 114%;
+    margin: 32px -76px;
+    border: none;
 }
 .contact-form{
     background-color: white;
@@ -508,8 +545,8 @@ header .header-wrapper{
     flex-basis: 95%;
     margin-top: 28px;
 }
-.subject input[type='subject']{
-    height: 37px;
+.subject textarea{
+    height: 40px;
     margin-top: 11px;
    
 }
@@ -525,7 +562,7 @@ header .header-wrapper{
     color: #9e9b94;
 }
 .message textarea{
-    height: 222px;
+    height: 225px;
     margin-top: 13px;
     
 }
@@ -538,8 +575,11 @@ header .header-wrapper{
 footer{
     height: 110px;
     text-align: center;
-    font-size: 14.5px;
-    padding-top: 19px;
-    color: #707c85;
+    font-size: 13px;
+    color: #3a506d;
     background-color: #f7f8fa;
+}
+footer p{
+    margin-top: 42px;
+    font-size: 14.5px;
 }
